@@ -1,0 +1,136 @@
+@media (min-width: 1536px) {
+  .card {
+    height: 550px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 554px) {
+  .card {
+    height: 500px;
+  }
+}
+
+.title {
+  font-size: 50px;
+  line-height: 65px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #182c47;
+  transition: transform 2s ease;
+}
+
+@media (max-width: 1535px) {
+  .title {
+    font-size: 35px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 2.25rem
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.875rem;
+    line-height: 2.7rem
+      /* 36px */
+    ;
+  }
+}
+
+@media (max-width: 558px) {
+  .title {
+    font-weight: bold;
+    font-size: 1.85rem;
+    line-height: 2.4rem
+  }
+}
+
+.md-title {
+  font-size: 25px;
+  font-weight: 900;
+  color: #192c4a;
+}
+
+@media (max-width: 1535px) {
+  .md-title {
+    font-size: 18px;
+    font-weight: 900;
+    color: #192c4a;
+  }
+}
+
+.sm-title {
+  font-size: 18px;
+  color: #334d69;
+  font-weight: 600;
+}
+
+@media (max-width: 1535px) {
+  .sm-title {
+    font-size: 16px;
+  }
+}
+
+.md-info {
+  font-size: 25px;
+  font-weight: 600;
+  color: #536380;
+}
+
+@media (max-width: 1535px) {
+  .md-info {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 558px) {
+  .md-info {
+    font-size: 15px;
+  }
+}
+
+p {
+  font-size: 15px;
+  font-weight: 600;
+  color: #536380;
+}
+
+@media (max-width: 1535px) {
+  p {
+    font-size: 13.5px;
+  }
+}
+
+.primary-btn {
+  color: #e3e7ed;
+  font-size: 22px;
+  padding: 3px 20px;
+  background-color: #182c47;
+  border: 1px solid transparent;
+}
+
+@media (max-width: 1535px) {
+  .primary-btn {
+    font-size: 15px;
+  }
+}
+
+.primary-btn:hover {
+  color: #0f2639;
+  border: 1px solid #485e73;
+  background-color: white;
+  font-weight: 600;
+}
+
+.secondary-btn {
+  color: #182c47;
+  padding: 6px 15px;
+  border: 1px solid #182c47;
+  font-weight: 600;
+  background-color: white;
+}

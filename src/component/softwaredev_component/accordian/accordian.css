@@ -1,0 +1,27 @@
+.ant-collapse-header {
+  align-items: center !important;
+}
+
+.ant-collapse-item {
+  background-color: white;
+  border-bottom: 1px solid #334d69 !important;
+}
+
+.ant-collapse-expand-icon span svg {
+  color: #182c47 !important;
+  font-size: 18px;
+  font-weight: 900 !important;
+}
+
+.ant-collapse-header-text {
+  color: #334d69;
+  font-size: 16.8px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 556px) {
+  .ant-collapse-header-text {
+    font-size: 15px;
+    font-weight: 700;
+  }
+}

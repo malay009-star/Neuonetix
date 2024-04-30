@@ -1,0 +1,31 @@
+.hero_sec {
+  background-image: url('../../assets/images/Landing_Background.jpg');
+}
+
+.hero_sec h1 {
+  color: white !important;
+}
+
+/*  */
+.development_titles {
+  font-weight: 600;
+  font-size: 16px;
+  color: #7f8fa6;
+}
+
+/* development services */
+.services_flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* other services */
+.services-sec {
+  background-image: url('../../assets/images/Background_fade_1.png');
+}
+
+/*  */
+/* .cybersecurity_sec p {
+  font-size: 17px;
+} */

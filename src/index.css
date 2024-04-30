@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* @font-face {
+  font-family: lato;
+  src: url('./assets/css/font/Lato-Regular.ttf');
+} */
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px !important;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px !important;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px !important;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px !important;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px !important;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .container {
+    max-width: 1480px !important;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container {
+    max-width: 1620px !important;
+    margin: auto;
+  }
+}

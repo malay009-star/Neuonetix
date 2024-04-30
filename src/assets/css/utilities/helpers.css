@@ -1,0 +1,88 @@
+.bg-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  padding-top: 375px;
+  padding-bottom: 375px;
+}
+
+@media (max-width: 786px) {
+  .wrapper {
+    /* background-color: red !important; */
+    padding-top: 192px;
+    padding-bottom: 192px;
+  }
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+}
+
+.overlay::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom,
+      #feffff 0%,
+      #c4c9d0 50%,
+      #c4c9d0 50%,
+      #c4c9d0 50%,
+      #fcfcfc 100%);
+  z-index: -1;
+}
+
+.homeOverlay {
+  position: relative;
+  z-index: 1;
+}
+
+.homeOverlay::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom,
+      #feffff 0%,
+      #c4c9d0 50%,
+      #c4c9d0 50%,
+      #c4c9d0 50%,
+      #f5f5f5 100%);
+  z-index: -1;
+}
+
+.primary-color {
+  color: #182c47;
+}
+
+.md-color {
+  color: #182c47;
+}
+
+.sm-color {
+  color: #334d69;
+}
+
+.info-color {
+  color: #536380;
+}
+
+.bg-color {
+  background-color: #182c47;
+}
+
+.dark-white {
+  color: #aabfc1;
+}
+
+.bg-light {
+  background-color: #f5f5f5;
+}
